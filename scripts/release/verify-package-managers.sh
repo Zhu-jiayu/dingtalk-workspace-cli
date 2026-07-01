@@ -115,7 +115,7 @@ verify_npm() {
   verify_skill_targets "$npm_home"
 
   HOME="$npm_home" npm_config_cache="$npm_cache" npm_config_prefix="$npm_prefix" \
-    npm uninstall -g dingtalk-workspace-cli >/dev/null
+    npm uninstall -g zhujiayu-dingtalk-workspace-cli >/dev/null
 
   rm -f "$tarball_path"
 }
